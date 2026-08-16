@@ -184,3 +184,82 @@ These insights will be expanded through additional dashboard pages.
 - **Version Control:** GitHub
 
 Other project components include data warehousing and process analysis, which are handled separately within the team.
+
+
+## Page 2 — Patient Journey & Bottleneck Analysis
+
+### Overview
+
+Page 2 focuses on understanding the patient journey through different hospital activities and identifying potential bottlenecks in the healthcare process.
+
+The page provides a detailed view of journey duration, waiting time, treatment time, and the activity creating the highest delay.
+
+### Key KPIs
+
+The following KPI cards were added:
+
+- **Average Journey Time** — Average time taken by a patient case from the beginning to the end of the recorded journey.
+- **Longest Journey Time** — Longest recorded patient journey duration.
+- **Average Activities per Case** — Average number of hospital activities performed for each case.
+- **Top Bottleneck Activity** — Activity with the highest average waiting time.
+- **Top Bottleneck Wait Time** — Average waiting time associated with the identified bottleneck activity.
+
+### Patient Journey Flow
+
+The patient journey is represented as:
+
+**Registration → Triage → Doctor → Lab Test → Billing**
+
+The journey flow helps visualize the sequence of activities followed by patients during their hospital visit.
+
+The **Doctor** activity is highlighted as the major bottleneck based on the highest waiting time observed in the analysis.
+
+### Visualizations
+
+#### 1. Activity-wise Waiting & Treatment Analysis
+
+A clustered chart compares:
+
+- Average Waiting Time
+- Average Treatment Time
+- Average Treatment per Case
+
+across different hospital activities.
+
+This helps distinguish between time spent waiting and time spent in treatment-related activities.
+
+#### 2. Activity-wise Journey Time Comparison
+
+A second chart compares:
+
+- Average Journey Time
+- Longest Journey Time
+
+to understand the variation in patient journey duration.
+
+### Filters
+
+Interactive slicers were added for:
+
+- **Department**
+- **Priority**
+
+These filters allow users to analyze patient journey and bottleneck information for specific departments or patient priority categories.
+
+### Bottleneck Highlighting
+
+The bottleneck activity is visually highlighted using **red** to immediately draw attention to the area requiring operational improvement.
+
+The remaining dashboard follows the project's established **blue and grey healthcare theme** for consistency with Page 1.
+
+### Page 2 Objective
+
+The main objective of this page is to help hospital management understand:
+
+- How patients move through different hospital activities
+- Where waiting and journey time are higher
+- Which activity acts as the primary bottleneck
+- How waiting time compares with treatment time
+- How the journey changes based on department and priority
+
+
