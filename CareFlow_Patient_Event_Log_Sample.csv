@@ -1,0 +1,3 @@
+Patient_ID,Patient_Name,Age,Gender,Visit_Date,Department,Doctor_Name,Activity,Activity_Start_Time,Activity_End_Time,Waiting_Time_Minutes,Treatment_Time,Case_ID,Status,Priority,Diagnosis,Lab_Test,Billing_Status
+P001,Rahul Sharma,45,Male,2026-08-01,Emergency,Dr. Mehta,Registration,10:00,10:05,5,5,C001,Completed,Emergency,Chest Pain,Yes,Paid
+P001,Rahul Sharma,45,Male,2026-08-01,Emergency,Dr. Mehta,Doctor Consultation,10:20,10:35,15,15,C001,Completed,Emergency,Chest Pain,Yes,Paid
