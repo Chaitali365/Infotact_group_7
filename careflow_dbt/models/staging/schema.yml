@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_patient_log
+    description: "Cleaned and standardized patient event log"
+
+    columns:
+      - name: Patient_ID
+        tests:
+          - not_null
+
+      - name: Patient_Name
+        tests:
+          - not_null
+
+      - name: Activity
+        tests:
+          - not_null
+
+      - name: Visit_Date
+        tests:
+          - not_null

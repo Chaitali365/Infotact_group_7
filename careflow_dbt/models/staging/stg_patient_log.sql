@@ -5,7 +5,10 @@ select
     Patient_Name,
     Age,
     Gender,
-    SAFE.PARSE_DATE('%d-%m-%Y', Visit_Date) as Visit_Date,
+    COALESCE(
+    SAFE.PARSE_DATE('%d-%m-%Y', Visit_Date),
+    SAFE.PARSE_DATE('%m/%d/%Y', Visit_Date)
+    ) AS Visit_Date,
     Department,
     Doctor_Name,
 
