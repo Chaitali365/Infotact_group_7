@@ -1,7 +1,7 @@
 {{ config(materialized='view') }}
 
 select
-    Patient_ID as Case_ID,
+   TRIM(UPPER(CAST(Patient_ID AS STRING))) AS Case_ID,
     Activity as Activity_Name,
     Visit_Date,
     Activity_Start_Time,
