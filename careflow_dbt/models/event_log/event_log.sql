@@ -6,6 +6,8 @@ select
     Visit_Date,
     Activity_Start_Time,
     Activity_End_Time,
+    TIMESTAMP(DATETIME(Visit_Date, Activity_Start_Time)) AS Activity_Start_Timestamp,
+    TIMESTAMP(DATETIME(Visit_Date, Activity_End_Time)) AS Activity_End_Timestamp,
     Patient_Name,
     Age,
     Gender,
