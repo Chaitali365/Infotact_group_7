@@ -1,6 +1,3 @@
--- Day 16: Define Conformance Rules
--- CareFlow patient journey conformance rules
-
 SELECT *
 FROM UNNEST([
   STRUCT(
