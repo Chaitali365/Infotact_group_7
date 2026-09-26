@@ -70,3 +70,51 @@ or real-world customer movements.
 🚧 Project is currently under development.
 
 Day 1 completed.
+
+## Day 2 — Exploratory Data Analysis (EDA)
+
+### Objective
+
+The objective of Day 2 was to explore the synthetic mobility, store, and
+geographic datasets and understand their distributions, temporal patterns,
+and geographic characteristics before moving to feature engineering.
+
+### Analysis Performed
+
+- Analyzed mobility pings by movement type
+- Calculated movement type percentages
+- Analyzed device type distribution
+- Analyzed hourly mobility patterns
+- Identified the peak mobility hour
+- Analyzed mobility by day of the week
+- Examined movement type distribution across different hours
+- Analyzed store types and daily capacity
+- Checked geographic coverage of mobility pings and stores
+
+### Key Findings
+
+The synthetic mobility dataset contains 5,000 mobility records.
+
+Movement type distribution:
+
+- Walking: 2,433 records (48.66%)
+- Driving: 1,548 records (30.96%)
+- Public Transport: 1,019 records (20.38%)
+
+Walking was the most common movement type in the generated dataset.
+
+Hourly and day-of-week mobility patterns were also analyzed to identify
+periods with higher mobility activity.
+
+### Data Scope
+
+The analysis uses synthetic mobility data generated specifically for this
+educational project. The results should not be interpreted as real-world
+human mobility or customer behavior.
+
+### Day 2 Status
+
+Completed.
+
+The exploratory analysis provides the foundation for feature engineering
+and subsequent spatial analytics.
