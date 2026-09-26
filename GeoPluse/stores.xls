@@ -1,0 +1,11 @@
+store_id,store_name,latitude,longitude,store_type,daily_capacity,opening_date
+S001,GeoCafe Central,28.6205,77.21,High Street,450,2024-01-15
+S002,GeoCafe Market,28.63,77.22,Market,400,2024-03-10
+S003,GeoCafe Riverside,28.605,77.205,Riverside,350,2024-05-20
+S004,GeoCafe Station,28.625,77.23,Transit,500,2024-07-01
+S005,GeoCafe Downtown,28.615,77.195,Downtown,550,2024-09-15
+S006,GeoCafe Mall,28.64,77.215,Shopping Mall,700,2025-01-10
+S007,GeoCafe University,28.61,77.225,University,300,2025-02-15
+S008,GeoCafe TechPark,28.635,77.195,Tech Park,600,2025-04-20
+S009,GeoCafe North,28.65,77.21,High Street,400,2025-06-10
+S010,GeoCafe South,28.59,77.22,Residential,350,2025-08-01

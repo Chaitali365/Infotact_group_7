@@ -1,0 +1,9 @@
+zone_id,zone_name,zone_type,min_latitude,max_latitude,min_longitude,max_longitude
+Z001,Central Business District,Commercial,28.61,28.63,77.195,77.225
+Z002,North Market,Commercial,28.63,28.66,77.195,77.23
+Z003,South Residential,Residential,28.58,28.61,77.195,77.23
+Z004,East Transit Hub,Transport,28.615,28.64,77.22,77.25
+Z005,West Riverside,Recreation,28.595,28.615,77.18,77.21
+Z006,University District,Education,28.6,28.62,77.215,77.24
+Z007,Tech Park,Business,28.625,28.645,77.18,77.215
+Z008,Shopping District,Retail,28.63,28.65,77.205,77.235
