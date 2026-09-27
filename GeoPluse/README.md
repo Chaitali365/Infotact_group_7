@@ -145,6 +145,49 @@ saved separately.
 ### Output Dataset
 
 `mobility_pings_featured.csv`
+## Day 4 — PySpark Data Processing
+
+### Objective
+
+The objective of Day 4 was to introduce Apache Spark into the GeoPulse
+data-processing workflow and perform analytical operations using PySpark
+DataFrames.
+
+### Tasks Completed
+
+- Initialized a local PySpark session
+- Loaded the feature-engineered mobility dataset
+- Inspected Spark schema and dataset structure
+- Performed DataFrame filtering and column selection
+- Aggregated mobility by movement type
+- Aggregated mobility by time period
+- Analyzed hourly mobility activity
+- Compared weekday and weekend activity
+- Analyzed movement type across time periods
+- Validated Spark results against the existing Pandas analysis
+
+### Validation
+
+The Spark DataFrame contained 5,000 mobility records.
+
+Movement-type counts were consistent with the previous Pandas analysis:
+
+- Walking: 2,433
+- Driving: 1,548
+- Public Transport: 1,019
+
+This confirmed that the Spark processing produced consistent results with
+the earlier analysis.
+
+### Day 4 Status
+
+Completed.
+
+The project is now ready to move from general data processing toward
+spatial analytics using Apache Sedona.
+
+All mobility data used in this project is synthetic and created for
+educational purposes.
 
 This dataset will be used in the upcoming PySpark and spatial analytics
 stages of the project.
