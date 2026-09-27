@@ -118,3 +118,37 @@ Completed.
 
 The exploratory analysis provides the foundation for feature engineering
 and subsequent spatial analytics.
+
+
+## Day 3 — Feature Engineering
+
+### Objective
+
+The objective of Day 3 was to transform the raw mobility data into a more
+analysis-ready dataset by creating useful temporal and categorical features.
+
+### Features Created
+
+- `time_period` for Morning, Afternoon, Evening, and Night classification
+- `is_peak_hour` to identify records during the peak mobility hour
+- `is_weekend` to identify weekend activity
+- `month` extracted from the mobility timestamp
+- `week_of_month` derived from the date
+- `movement_type_code` for numerical representation of movement categories
+
+### Validation
+
+The newly created features were validated for missing values and consistency.
+The original raw dataset was preserved, while the engineered dataset was
+saved separately.
+
+### Output Dataset
+
+`mobility_pings_featured.csv`
+
+This dataset will be used in the upcoming PySpark and spatial analytics
+stages of the project.
+
+### Day 3 Status
+
+Completed.
