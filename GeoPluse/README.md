@@ -258,3 +258,33 @@ The cannibalization indicator is a proximity-based analytical indicator and does
 ### Output
 
 - `store_opportunity_analysis.csv`
+
+## Day 7 — Store Performance & Temporal Pattern Analysis
+
+### Objective
+
+Analyze store-level mobility patterns across time periods, movement types, weekdays, weekends, and peak hours.
+
+### Work Completed
+
+- Analyzed mobility activity by store and time period
+- Analyzed movement types across individual stores
+- Compared weekday and weekend mobility patterns
+- Identified peak-hour and non-peak-hour activity
+- Identified the dominant mobility period for each store
+- Calculated dominant-period activity concentration
+- Combined temporal metrics with Day 6 store opportunity metrics
+- Created store performance categories
+- Generated a consolidated store performance dataset
+
+### Output
+
+- `store_performance_analysis.csv`
+
+### Analytical Use
+
+The resulting dataset can be used for downstream dashboard development, store comparison, location analysis, and retail decision-support visualizations.
+
+### Note
+
+All mobility data used in GeoPulse is synthetic and does not represent actual customer or human mobility behavior.
