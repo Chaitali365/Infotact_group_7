@@ -192,6 +192,40 @@ educational purposes.
 This dataset will be used in the upcoming PySpark and spatial analytics
 stages of the project.
 
-### Day 3 Status
+## Day 5 — Spatial Analytics with Python
 
-Completed.
+### Objective
+
+Perform spatial proximity analysis on synthetic mobility and retail store data using geographic coordinates.
+
+### Work Completed
+
+- Loaded the feature-engineered mobility dataset and retail store dataset
+- Used latitude and longitude coordinates for geographic analysis
+- Implemented the Haversine formula to calculate geographic distance
+- Mapped each mobility ping to its nearest retail store
+- Calculated the distance between mobility pings and their nearest stores
+- Created distance bands for spatial segmentation
+- Created 500-meter and 1-kilometer catchment indicators
+- Performed store-level mobility and proximity analysis
+- Analyzed mobility patterns across distance bands and movement types
+- Analyzed catchment coverage across different time periods
+- Combined spatial mobility metrics with store information
+- Generated datasets for downstream analytics and visualization
+
+### Key Results
+
+- Total mobility records analyzed: 5,000
+- Retail stores analyzed: 10
+- Average distance to nearest store: 1.613 km
+- Mobility pings within 500 meters of a store: 719
+- Mobility pings within 1 kilometer of a store: 2,168
+
+### Output Files
+
+- `mobility_store_proximity.csv`
+- `store_spatial_analysis.csv`
+
+### Note
+
+The mobility and retail datasets used in this project are synthetic and are intended for demonstrating spatial analytics workflows. The analysis does not represent real customer or human mobility behavior.
