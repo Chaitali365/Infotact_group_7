@@ -229,3 +229,32 @@ Perform spatial proximity analysis on synthetic mobility and retail store data u
 ### Note
 
 The mobility and retail datasets used in this project are synthetic and are intended for demonstrating spatial analytics workflows. The analysis does not represent real customer or human mobility behavior.
+
+
+## Day 6 — Store Opportunity & Spatial Competition Analysis
+
+### Objective
+
+Develop store-level business metrics using the spatial analytics outputs created during Day 5.
+
+### Work Completed
+
+- Aggregated mobility activity at store level
+- Calculated store mobility intensity
+- Calculated 500-meter and 1-kilometer catchment coverage
+- Created a combined catchment score
+- Calculated a capacity pressure indicator using mobility activity and store capacity
+- Calculated distances between retail store pairs
+- Identified nearby stores within a 1-kilometer radius
+- Created a proximity-based store overlap indicator
+- Developed a mobility-based opportunity score
+- Ranked stores using the calculated opportunity score
+- Created a consolidated store analytics dataset
+
+### Important Note
+
+The cannibalization indicator is a proximity-based analytical indicator and does not represent actual customer cannibalization. Since the mobility dataset is synthetic, the metric is intended only for demonstrating a retail analytics methodology.
+
+### Output
+
+- `store_opportunity_analysis.csv`
