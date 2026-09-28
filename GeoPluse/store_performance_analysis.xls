@@ -1,0 +1,11 @@
+opportunity_rank,nearest_store_id,nearest_store_name,store_type,total_mobility_pings,avg_distance_km,catchment_500m_pct,catchment_1km_pct,mobility_intensity_score,catchment_score,capacity_pressure_score,nearby_store_count,cannibalization_indicator,opportunity_score,dominant_time_period,dominant_period_pings,dominant_period_pct,performance_category
+1,S010,GeoCafe South,Residential,684,2.02,6.29,23.25,97.44,13.07,195.43,0,Low Overlap,100.0,Night,228,33.33,Higher Activity
+2,S007,GeoCafe University,University,517,1.24,17.6,57.83,73.65,33.69,172.33,0,Low Overlap,91.27,Night,181,35.01,Higher Activity
+3,S003,GeoCafe Riverside,Riverside,536,1.48,16.6,50.19,76.35,30.04,153.14,0,Low Overlap,85.49,Night,183,34.14,Higher Activity
+4,S005,GeoCafe Downtown,Downtown,702,1.85,10.83,34.47,100.0,20.29,127.64,0,Low Overlap,84.38,Night,216,30.77,Higher Activity
+5,S004,GeoCafe Station,Transit,602,1.91,11.3,32.06,85.75,19.6,120.4,0,Low Overlap,76.3,Night,204,33.89,Higher Activity
+6,S008,GeoCafe TechPark,Tech Park,648,1.74,10.49,36.27,92.31,20.8,108.0,0,Low Overlap,75.56,Night,205,31.64,Higher Activity
+7,S009,GeoCafe North,High Street,513,1.97,9.75,28.65,73.08,17.31,128.25,0,Low Overlap,72.9,Night,176,34.31,Higher Activity
+8,S001,GeoCafe Central,High Street,316,0.63,31.96,91.14,45.01,55.63,70.22,0,Low Overlap,55.76,Night,116,36.71,Moderate Activity
+9,S002,GeoCafe Market,Market,199,0.65,32.16,87.44,28.35,54.27,49.75,0,Low Overlap,42.55,Morning,60,30.15,Moderate Activity
+10,S006,GeoCafe Mall,Shopping Mall,283,1.17,24.38,57.24,40.31,37.52,40.43,0,Low Overlap,39.51,Night,94,33.22,Lower Activity
