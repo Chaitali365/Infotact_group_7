@@ -322,3 +322,31 @@ The resulting dataset can be used for downstream dashboard development, store co
 ### Note
 
 All mobility data used in GeoPulse is synthetic and does not represent actual customer or human mobility behavior.
+
+## Day 9 — Snowflake Analytical Queries & Business Metrics
+
+### Objective
+
+Perform business-oriented SQL analysis using the GeoPulse datasets stored in Snowflake.
+
+### Work Completed
+
+- Calculated overall mobility KPIs
+- Analyzed movement type distribution
+- Analyzed time-period mobility
+- Compared peak and non-peak activity
+- Compared weekday and weekend activity
+- Ranked stores using opportunity scores
+- Analyzed store catchment coverage
+- Analyzed capacity pressure
+- Analyzed nearby-store overlap
+- Analyzed store performance categories
+- Created a consolidated `STORE_BUSINESS_SUMMARY` table
+
+### Output
+
+- `STORE_BUSINESS_SUMMARY`
+
+### Note
+
+The GeoPulse datasets are synthetic and are intended only to demonstrate SQL analytics and retail decision-support workflows.
