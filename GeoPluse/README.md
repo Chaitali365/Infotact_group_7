@@ -283,6 +283,40 @@ Analyze store-level mobility patterns across time periods, movement types, weekd
 
 ### Analytical Use
 
+## Day 8 — Snowflake Data Warehouse Integration
+
+### Objective
+
+Integrate GeoPulse analytical datasets into a Snowflake data warehouse and create a structured foundation for downstream analytics and visualization.
+
+### Work Completed
+
+- Created the `GEOPULSE_DB` Snowflake database
+- Created `RAW` and `ANALYTICS` schemas
+- Loaded GeoPulse datasets into Snowflake
+- Validated loaded tables and record counts
+- Performed SQL-based mobility analysis
+- Analyzed store opportunity metrics
+- Analyzed store performance metrics
+- Created an analytical `STORE_PERFORMANCE_VIEW`
+- Validated the warehouse data against the locally generated datasets
+
+### Warehouse Structure
+
+```text
+GEOPULSE_DB
+├── RAW
+│   ├── MOBILITY_PINGS_FEATURED
+│   ├── STORES
+│   ├── ZONES
+│   ├── MOBILITY_STORE_PROXIMITY
+│   ├── STORE_SPATIAL_ANALYSIS
+│   ├── STORE_OPPORTUNITY_ANALYSIS
+│   └── STORE_PERFORMANCE_ANALYSIS
+│
+└── ANALYTICS
+    └── STORE_PERFORMANCE_VIEW
+
 The resulting dataset can be used for downstream dashboard development, store comparison, location analysis, and retail decision-support visualizations.
 
 ### Note
