@@ -345,6 +345,34 @@ Perform business-oriented SQL analysis using the GeoPulse datasets stored in Sno
 
 ### Output
 
+## Day 10 — Dashboard-Ready Analytics Layer
+
+### Objective
+
+Prepare a final Snowflake analytics layer for downstream dashboard development and business analysis.
+
+### Work Completed
+
+- Validated the final `STORE_BUSINESS_SUMMARY` table
+- Created the `STORE_BUSINESS_ANALYTICS` view
+- Created dashboard-oriented KPI queries
+- Analyzed total stores and mobility activity
+- Calculated average opportunity score
+- Calculated average nearest-store distance
+- Analyzed 500-meter and 1-kilometer catchment coverage
+- Created ranked store-level analysis
+- Analyzed store performance categories
+- Prepared a clean analytics layer for visualization
+
+### Output
+
+- `STORE_BUSINESS_SUMMARY`
+- `STORE_BUSINESS_ANALYTICS`
+
+### Note
+
+The GeoPulse datasets are synthetic and are intended only to demonstrate spatial analytics, SQL analytics, and retail decision-support workflows.
+
 - `STORE_BUSINESS_SUMMARY`
 
 ### Note
