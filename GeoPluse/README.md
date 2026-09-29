@@ -378,3 +378,27 @@ The GeoPulse datasets are synthetic and are intended only to demonstrate spatial
 ### Note
 
 The GeoPulse datasets are synthetic and are intended only to demonstrate SQL analytics and retail decision-support workflows.
+
+## Day 11 — Dashboard Data Preparation
+
+### Objective
+
+Prepare the final Snowflake analytics layer for downstream dashboard development.
+
+### Work Completed
+
+- Validated the Snowflake analytics view
+- Created the `GEOPULSE_DASHBOARD_DATA` view
+- Selected final store-level business metrics
+- Prepared dashboard KPI fields
+- Organized mobility, catchment, capacity, opportunity, and performance metrics
+- Prepared the project for Power BI visualization
+
+### Output
+
+- `GEOPULSE_DASHBOARD_DATA`
+
+### Note
+
+The GeoPulse datasets are synthetic and are intended only to demonstrate spatial analytics, SQL analytics, and retail decision-support workflows.
+
