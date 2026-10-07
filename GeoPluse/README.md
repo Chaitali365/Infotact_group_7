@@ -470,4 +470,40 @@ The second Power BI dashboard page provides a deeper view of store-level catchme
 
 
 
+## Day 14 — Store Opportunity & Performance Analysis
+
+### Objective
+
+Develop the third analytical page of the GeoPulse Power BI dashboard to analyze store-level opportunity, mobility activity, and the major factors contributing to store performance.
+
+### Work Completed
+
+- Created the `Store Opportunity & Performance Analysis` dashboard page
+- Added KPI cards for top opportunity score
+- Added average opportunity score
+- Added average capacity pressure
+- Added count of higher activity stores
+- Created store opportunity ranking
+- Created opportunity score versus 1KM catchment scatter analysis
+- Added store-level mobility activity analysis
+- Created an opportunity driver breakdown table
+- Compared mobility intensity, catchment score, capacity pressure, and opportunity score
+- Avoided repeating visuals already used on previous dashboard pages
+
+### Key Dashboard Metrics
+
+- Top Opportunity Score: 100
+- Average Opportunity Score: 72.37
+- Average Capacity Pressure: 116.56
+- Higher Activity Stores: 7
+
+### Dashboard Pages Completed
+
+- Page 1 — Executive Overview
+- Page 2 — Catchment & Capacity Analysis
+- Page 3 — Store Opportunity & Performance Analysis
+
+### Outcome
+
+The third dashboard page provides a store-level view of opportunity and performance by combining mobility activity, catchment, capacity pressure, and opportunity metrics. It helps compare stores and understand the factors contributing to their opportunity scores.
 
