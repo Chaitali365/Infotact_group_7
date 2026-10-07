@@ -432,9 +432,42 @@ The page provides a high-level view of:
 The GeoPulse datasets are synthetic and are intended only to demonstrate spatial analytics, SQL analytics, and retail decision-support workflows.
 - `GEOPULSE_DASHBOARD_DATA`
 
-### Note
+## Day 13 — Power BI Catchment & Capacity Analysis
 
-The GeoPulse datasets are synthetic and are intended only to demonstrate spatial analytics, SQL analytics, and retail decision-support workflows.
+### Objective
+
+Develop the second analytical page of the GeoPulse Power BI dashboard to evaluate store catchment coverage, capacity pressure, and mobility intensity.
+
+### Work Completed
+
+- Created the `Catchment & Capacity Analysis` dashboard page
+- Added KPI cards for average 500m catchment and average 1km catchment
+- Added average capacity pressure KPI
+- Added average mobility intensity KPI
+- Created store-level 500m vs 1km catchment comparison
+- Created store capacity pressure ranking
+- Created mobility intensity vs capacity pressure scatter analysis
+- Added performance category as a visual segmentation
+- Created a detailed store-level catchment and capacity table
+- Compared store-level mobility intensity with capacity pressure
+- Reviewed store catchment coverage and operational pressure across locations
+
+### Key Dashboard Metrics
+
+- Average 500m Catchment: 17.14
+- Average 1km Catchment: 49.85
+- Average Capacity Pressure: 116.56
+- Average Mobility Intensity: 71.23
+
+### Dashboard Pages Completed
+
+- Page 1 — Executive Overview
+- Page 2 — Catchment & Capacity Analysis
+
+### Outcome
+
+The second Power BI dashboard page provides a deeper view of store-level catchment coverage, mobility intensity, and capacity pressure, helping identify stores with higher activity and operational pressure.
+
 
 
 
