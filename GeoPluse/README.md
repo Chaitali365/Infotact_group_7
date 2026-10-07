@@ -436,3 +436,5 @@ The GeoPulse datasets are synthetic and are intended only to demonstrate spatial
 
 The GeoPulse datasets are synthetic and are intended only to demonstrate spatial analytics, SQL analytics, and retail decision-support workflows.
 
+
+
