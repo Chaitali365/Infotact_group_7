@@ -395,7 +395,41 @@ Prepare the final Snowflake analytics layer for downstream dashboard development
 - Prepared the project for Power BI visualization
 
 ### Output
+## Day 12 — Power BI Executive Dashboard
 
+### Objective
+
+Connect the Snowflake analytics layer with Power BI and create the first executive-level dashboard page.
+
+### Work Completed
+
+- Connected Power BI with the Snowflake analytics layer
+- Loaded the `GEOPULSE_DASHBOARD_DATA` view
+- Validated the dashboard dataset
+- Created KPI measures
+- Created the Executive Overview page
+- Added store opportunity ranking
+- Added mobility analysis by store type
+- Added store performance distribution
+- Added opportunity versus mobility analysis
+
+### Dashboard Page
+
+**Executive Overview**
+
+The page provides a high-level view of:
+
+- Store count
+- Mobility activity
+- Store opportunity
+- Geographic distance metrics
+- Catchment coverage
+- Store performance
+- Mobility intensity
+
+### Note
+
+The GeoPulse datasets are synthetic and are intended only to demonstrate spatial analytics, SQL analytics, and retail decision-support workflows.
 - `GEOPULSE_DASHBOARD_DATA`
 
 ### Note
